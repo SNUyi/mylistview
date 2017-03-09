@@ -14,7 +14,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-
+/**
+ * 作者：SUNny on 2017/3/9 21:04
+ * 邮箱：sunlipeng1994@163.com
+ */
 public class XListView extends ListView {
 
     private View mFootView;
