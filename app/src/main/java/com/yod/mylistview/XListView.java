@@ -15,8 +15,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * 作者：SUNny on 2017/3/9 21:04
- * 邮箱：sunlipeng1994@163.com
+ * 自定义listview，实现动态增删条目，通过getdata方法获取数据
+ * 孙立鹏 on 2017/3/9
+ *
  */
 public class XListView extends ListView {
 
@@ -65,6 +66,7 @@ public class XListView extends ListView {
             super();
             this.context = context;
             inflater = LayoutInflater.from(context);
+            arr.add("");
         }
 
         @Override

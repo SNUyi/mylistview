@@ -11,6 +11,6 @@
         android:layout_height="50dp"
         android:layout_gravity="bottom|right"
         android:layout_marginRight="20dp"
-        android:background="@mipmap/add" />
+        android:background="@drawable/add" />
 
 </LinearLayout>
