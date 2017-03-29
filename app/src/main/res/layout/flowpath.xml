@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:background="#118475"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="流程待办"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="#EEEEED"></LinearLayout>
+
+    <com.yod.mylistview.LoadListView
+        android:id="@+id/task_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#EEEEED"
+        android:dividerHeight="7dp">
+
+    </com.yod.mylistview.LoadListView>
+</LinearLayout>
